@@ -155,6 +155,10 @@ body {
 
 }
 
+.social-icons img {
+  color: var(--button-color);
+}
+
 
 .btn-group {
   margin-top: 0.3rem;
