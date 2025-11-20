@@ -155,10 +155,6 @@ body {
 
 }
 
-.social-icons img {
-  color: var(--button-color);
-}
-
 
 .btn-group {
   margin-top: 0.3rem;
@@ -358,6 +354,15 @@ flex-direction: column;
   transform: scale(1.05);
      box-shadow: 0 0 25px var(--accent-color), 0 0 50px var(--accent-color);
      font-weight: 600;
+}
+
+.stars-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 3rem;
+  color: var(--button-color);
 }
 
 /* ---------------- CAROUSEL ---------------- */
@@ -686,7 +691,15 @@ gap: 1rem;
 }
 
 .feedback-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
+}
+.feedback-title {
+  padding: 1rem 1rem;
+}
+.stars-icons {
+
+  font-size: 2rem;
+
 }
     
     .navbar a {
@@ -746,7 +759,8 @@ gap: 1rem;
   font-size: 2.6rem;
 }
 .feedback-title {
-  font-size: 2.6rem;
+  font-size: 1.8rem;
+  padding: 1rem 1rem;
 }
 .home-img img,
 .about-img img,
@@ -776,4 +790,18 @@ gap: 1rem;
  
 
 }
+.stars-icons {
+
+  font-size: 1.4rem;
+ 
+}
+
+
+}
+
+@media (max-width: 380) {
+  .copyright {
+    font-size: 0.5rem;
+    padding: 1rem 1rem;
+  }
 }
